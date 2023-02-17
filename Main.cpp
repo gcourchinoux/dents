@@ -4,6 +4,20 @@
 
 #define PI  3.14159265
 
+#define max 100 // max 100 dents
+#define min 15 // max 15 dents 
+
+int random() {
+
+	int randNum = rand() % (max - min + 1) + min;
+//	std::cout << "rand" << randNum << std::endl;
+	return randNum;
+
+
+}
+
+
+
 void printf_main_info() {
 	
 	std::cout << "Copyright 2023 , Gaspard COURCHINOUX Tous droits réservés " << std::endl;
@@ -12,6 +26,7 @@ void printf_main_info() {
 	
 	
 	}
+
 unsigned long d  = 0; 
 unsigned long da = 0; 
 double df = 0; 
@@ -19,6 +34,9 @@ unsigned long ha = 0 ;
 double hf = 0 ; 
 double p = 0; 
 double s_e = 0;
+
+
+
 void calculer(char**argv){
 	
 	unsigned long module = atol(argv[1]);
