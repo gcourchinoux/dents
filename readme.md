@@ -79,3 +79,9 @@ Un executable sera produit.
 ./dents [MODULE] [NOMBRE_DE_DENTS]
 ```
 
+# TODO 
+
+
+* brute force pour trouver des configurations. On donne juste une alternance par heure , un module , le système trouve. 
+* DWG
+
