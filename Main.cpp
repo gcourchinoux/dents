@@ -7,7 +7,7 @@
 #define max 100 // max 100 dents
 #define min 15 // min 15 dents 
 
-int random() {
+int random_() {
 
 	int randNum = rand() % (max - min + 1) + min;
 //	std::cout << "rand" << randNum << std::endl;
