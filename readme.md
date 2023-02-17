@@ -1,5 +1,6 @@
 # objet du présent programme 
 
+Plus d'informations [ici](https://gaspard.courchinoux.org/wiki?name=Dents&p)
 
 Ce programme permet de calculer les dents à developpante du cercle d'un engrenage. 
 
