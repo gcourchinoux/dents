@@ -65,6 +65,21 @@ void calculer(char**argv){
 		s_e = module*PI/2;
 	}
 
+void random_process(char **argv) {
+	
+	
+		unsigned long module = atol(argv[2]);
+		unsigned long alternance = atol(argv[3]);
+	
+	
+	// TODO faire l'équation à quatre inconnus 
+	
+	
+	
+	
+	
+	}
+
 int main(int argc,char**argv) {
 	
 	printf_main_info();
@@ -72,7 +87,7 @@ int main(int argc,char**argv) {
 	if(argc < 2) {
 		
 		std::cout << "USAGE : " << "./dents  [MODULE] [NOMBRE_DE_DENTS]" << std::endl;
-		std::cout << "USAGE : " << "./dents  -random [MODULE] " << std::endl;
+		std::cout << "USAGE : " << "./dents  -random [MODULE] [ALTERNANCE_PAR_HEURE] " << std::endl;
 		exit(1);
 		
 		}
@@ -80,7 +95,12 @@ int main(int argc,char**argv) {
 	if(strcmp(argv[1],"-random") !=1) {
 	
 	calculer(argv);
-}
+} else {
+	
+	
+	random_process(argv);
+	
+	}
 	
 	
 	
