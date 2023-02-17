@@ -77,6 +77,7 @@ Un executable sera produit.
 
 ```
 ./dents [MODULE] [NOMBRE_DE_DENTS]
+/dents  -random [MODULE]
 ```
 
 # TODO 

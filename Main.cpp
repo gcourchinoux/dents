@@ -5,7 +5,7 @@
 #define PI  3.14159265
 
 #define max 100 // max 100 dents
-#define min 15 // max 15 dents 
+#define min 15 // min 15 dents 
 
 int random() {
 
@@ -72,12 +72,15 @@ int main(int argc,char**argv) {
 	if(argc < 2) {
 		
 		std::cout << "USAGE : " << "./dents  [MODULE] [NOMBRE_DE_DENTS]" << std::endl;
+		std::cout << "USAGE : " << "./dents  -random [MODULE] " << std::endl;
 		exit(1);
 		
 		}
 	
-	calculer(argv);
+	if(strcmp(argv[1],"-random") !=1) {
 	
+	calculer(argv);
+}
 	
 	
 	
