@@ -74,7 +74,31 @@ void random_process(char **argv) {
 	
 	// TODO faire l'équation à quatre inconnus 
 	
-	
+	while(true) {
+		
+		unsigned long z1 = random_();
+		unsigned long z2 = random_();
+		unsigned long z3 = random_(); 
+		
+		unsigned long z4 = random_();
+		unsigned long z5 = random_(); 
+		unsigned long ze = random_(); 
+		unsigned long z6 = random_(); 
+		
+		
+		unsigned long final_ = 60*z5*2*ze/z6;
+		unsigned long final_2 = z1*z3/z2*z4;
+		
+		if(final_ == alternance && final_2 == 1) {
+			
+			std::cout << "z5 " << z5 << std::endl << "ze " << ze << std::endl << "z6 " << z6 << std::endl;
+			
+			
+			break;
+			
+			}
+		
+		}
 	
 	
 	
@@ -91,12 +115,11 @@ int main(int argc,char**argv) {
 		exit(1);
 		
 		}
-	
-	if(strcmp(argv[1],"-random") !=1) {
+	if(strcmp(argv[1],"-random") !=0) {
 	
 	calculer(argv);
 } else {
-	
+
 	
 	random_process(argv);
 	

@@ -77,7 +77,7 @@ Un executable sera produit.
 
 ```
 ./dents [MODULE] [NOMBRE_DE_DENTS]
-./dents  -random [MODULE]
+./dents  -random [MODULE] [ALTERNANCE_PAR_HEURE]
 ```
 
 # TODO 
