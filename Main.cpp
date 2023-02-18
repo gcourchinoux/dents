@@ -89,8 +89,10 @@ void random_process(char **argv) {
 		unsigned long final_ = 60*z5*2*ze/z6;
 		unsigned long final_2 = z1*z3/z2*z4;
 		
-		if(final_ == alternance && final_2 == 1) {
+		if(final_ == alternance ) {
 			
+			std::cout << "z1 " << z1 << std::endl << "z2 " << z2 << std::endl << "z3 " << z3 << std::endl << "z4" << z4 << std::endl;
+
 			std::cout << "z5 " << z5 << std::endl << "ze " << ze << std::endl << "z6 " << z6 << std::endl;
 			
 			
